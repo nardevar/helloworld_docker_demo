@@ -1,4 +1,4 @@
-#docker stop helloworld
-#docker rm helloworld
+docker stop helloworld
+docker rm helloworld
 sudo docker build -t hello-world .
 sudo docker run -d --name helloworld -p 80:80 -v /var/lib/jenkins/workspace/helloworld_docker_demo/src/:/var/www/html hello-world
